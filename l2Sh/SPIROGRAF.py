@@ -30,9 +30,9 @@ def draw_line():
     after_id = root.after(10, draw_line)
  
 root = Tk()
-lab1 = Label(root, text = "Введите R", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
-lab2 = Label(root, text = "Введите r", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
-lab3 = Label(root, text = "Введите d", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
+lab1 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ R", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
+lab2 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ r", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
+lab3 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ d", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
 txt1 = Entry(root, bg = "blue",fg = "white", width = 5, font = "Ubuntu, 20")
 txt2 = Entry(root, bg = "blue",fg = "white", width = 5, font = "Ubuntu, 20")
 txt3 = Entry(root, bg = "blue",fg = "white", width = 5, font = "Ubuntu, 20")
