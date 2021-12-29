@@ -33,8 +33,8 @@ def f1(event):
                 y = y - d*sin(a)
   
 
-lab1 = Label(root, text = "Порядок", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
-lab2 = Label(root, text = "Длина", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
+lab1 = Label(root, text = "ГЏГ®Г°ГїГ¤Г®ГЄ", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
+lab2 = Label(root, text = "Г„Г«ГЁГ­Г ", font = "Ubuntu, 20", bg = "purple", fg = "yellow", width = 10)
 txt1 = Entry(root, bg = "blue",fg = "white", width = 5, font = "Ubuntu, 20")
 txt2 = Entry(root, bg = "blue",fg = "white", width = 5, font = "Ubuntu, 20")
 cvs = Canvas(root, height = 400, width = 400, bg = "#fff")
