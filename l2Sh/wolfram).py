@@ -61,7 +61,7 @@ labxmin = Label(root, text = "xmin", font = "Ubuntu, 18", width = 6, bg = "purpl
 labxmax = Label(root, text = "xmax", font = "Ubuntu, 18", width = 6, bg = "purple", fg = "yellow")
 labymax = Label(root, text = "ymax", font = "Ubuntu, 18", width = 6, bg = "purple", fg = "yellow")
 labymin  = Label(root, text = "ymin ", font = "Ubuntu, 18", width = 6, bg = "purple", fg = "yellow")
-btn1 = Button(root, text = "îê", font = "Ububuntu, 16", command = start_draw)
+btn1 = Button(root, text = "Ã®Ãª", font = "Ububuntu, 16", command = start_draw)
 cvs = Canvas(root, height = 400, width = 400, bg = "#fff")
 
 txt1.grid(row = 1, column = 2, sticky = "w")
