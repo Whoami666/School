@@ -11,15 +11,15 @@ a = 0
 s = "1"
 l = r = ""
 cvs = Canvas(canva, width = 0, height = 0)
-root.title("Меню")
-canva.title("Холст")
+root.title("ГЊГҐГ­Гѕ")
+canva.title("Г•Г®Г«Г±ГІ")
 
-lab1 = Label(root, text = "Введите размеры холста", font = "Ubuntu, 20",
+lab1 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ Г°Г Г§Г¬ГҐГ°Г» ГµГ®Г«Г±ГІГ ", font = "Ubuntu, 20",
              bg = "black",
              fg = "yellow")
-lab2 = Label(root, text = "Введите d", font = "Ubuntu, 20",
+lab2 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ d", font = "Ubuntu, 20",
              bg = "black", fg = "yellow")
-lab3 = Label(root, text = "Введите n", font = "Ubuntu, 20",
+lab3 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ n", font = "Ubuntu, 20",
              bg = "black", fg = "yellow")
 txt2 = Entry(root, font = "Ubuntu, 20")
 txt3 = Entry(root, font = "Ubuntu, 20")
@@ -40,7 +40,7 @@ def f1():
         cvs = Canvas(canva, width = m1, height = m, bg = "white")
         cvs.grid(row = 0, column = 0)
         cvs.bind("<Button-1>", f4)
-    except: showwarning("Ошибка", "Введите натуральные числа")
+    except: showwarning("ГЋГёГЁГЎГЄГ ", "Г‚ГўГҐГ¤ГЁГІГҐ Г­Г ГІГіГ°Г Г«ГјГ­Г»ГҐ Г·ГЁГ±Г«Г ")
 
 def f2():
     cvs.delete("all")
@@ -76,11 +76,11 @@ def f4(event):
                 y = y - d*sin(a)
 
 
-    except: showwarning("Ошибка", "Введите натуральные числа")
+    except: showwarning("ГЋГёГЁГЎГЄГ ", "Г‚ГўГҐГ¤ГЁГІГҐ Г­Г ГІГіГ°Г Г«ГјГ­Г»ГҐ Г·ГЁГ±Г«Г ")
 
-B1 = Button(root, text = "Создать холст", width = "25", command = f1)
-B2 = Button(root, text = "Очистить холст",  width = "25", command = f2)
-B3 = Button(root, text = "Выход", width = "25", command = f3)
+B1 = Button(root, text = "Г‘Г®Г§Г¤Г ГІГј ГµГ®Г«Г±ГІ", width = "25", command = f1)
+B2 = Button(root, text = "ГЋГ·ГЁГ±ГІГЁГІГј ГµГ®Г«Г±ГІ",  width = "25", command = f2)
+B3 = Button(root, text = "Г‚Г»ГµГ®Г¤", width = "25", command = f3)
 
 lab1.grid(row = 0, column = 0, columnspan = 2)
 tn.grid(row = 1, column = 0)
