@@ -8,14 +8,14 @@ time = ""
 cvs = Canvas(root, width = 0, height = 0)
 root.title("Anima")
 
-lab1 = Label(root, text = "Введите размеры массива", font = "Ubuntu, 20",
+lab1 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ Г°Г Г§Г¬ГҐГ°Г» Г¬Г Г±Г±ГЁГўГ ", font = "Ubuntu, 20",
              bg = "black", 
              fg = "yellow")
-lab2 = Label(root, text = "Введите R", font = "Ubuntu, 20",
+lab2 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ R", font = "Ubuntu, 20",
              bg = "black", fg = "yellow")
-lab3 = Label(root, text = "Введите d", font = "Ubuntu, 20",
+lab3 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ d", font = "Ubuntu, 20",
              bg = "black", fg = "yellow")
-lab4 = Label(root, text = "Введите скорость", font = "Ubunty, 20",
+lab4 = Label(root, text = "Г‚ГўГҐГ¤ГЁГІГҐ Г±ГЄГ®Г°Г®Г±ГІГј", font = "Ubunty, 20",
              bg = "black", fg = "yellow")
 txt2 = Entry(root, font = "Ubuntu, 20")
 txt3 = Entry(root, font = "Ubuntu, 20")
@@ -33,7 +33,7 @@ def f1():
         m = int(m)
         cvs = Canvas(root, width = n, height = m, bg = "white")
         cvs.grid(row = 9, column = 0, columnspan = 2)
-    except: showinfo("Ошибка", "Введите натуральные числа")
+    except: showinfo("ГЋГёГЁГЎГЄГ ", "Г‚ГўГҐГ¤ГЁГІГҐ Г­Г ГІГіГ°Г Г«ГјГ­Г»ГҐ Г·ГЁГ±Г«Г ")
     
 def f2():
     cvs.delete("all")   
@@ -70,7 +70,7 @@ def f3():
         spoke = cvs.create_line(x0, y0, x0 + d, y0, fill = "green", width = 2)
         crcl = cvs.create_oval(x0 - R, y0 - R, x0 + R, y0 + R)
         vs()
-    except: showinfo("Ошибка", "Введите натуральные числа")
+    except: showinfo("ГЋГёГЁГЎГЄГ ", "Г‚ГўГҐГ¤ГЁГІГҐ Г­Г ГІГіГ°Г Г«ГјГ­Г»ГҐ Г·ГЁГ±Г«Г ")
     
 def f4():
     root.after_cancel(time)
@@ -82,12 +82,12 @@ def f5():
 def f6():
     root.destroy() 
     
-B1 = Button(root, text = "Создать холст", width = "25", command = f1)
-B2 = Button(root, text = "Очистить холст",  width = "25", command = f2)
-B3 = Button(root, text = "Старт", width = "25", command = f3)
-B4 = Button(root, text = "Стоп", width = "25", command = f4)
-B5 = Button(root, text = "Продолжить", width = "25", command = f5)
-B6 = Button(root, text = "Выход", width = "25", command = f6)
+B1 = Button(root, text = "Г‘Г®Г§Г¤Г ГІГј ГµГ®Г«Г±ГІ", width = "25", command = f1)
+B2 = Button(root, text = "ГЋГ·ГЁГ±ГІГЁГІГј ГµГ®Г«Г±ГІ",  width = "25", command = f2)
+B3 = Button(root, text = "Г‘ГІГ Г°ГІ", width = "25", command = f3)
+B4 = Button(root, text = "Г‘ГІГ®ГЇ", width = "25", command = f4)
+B5 = Button(root, text = "ГЏГ°Г®Г¤Г®Г«Г¦ГЁГІГј", width = "25", command = f5)
+B6 = Button(root, text = "Г‚Г»ГµГ®Г¤", width = "25", command = f6)
 
 lab1.grid(row = 0, column = 0, columnspan = 2)
 tn.grid(row = 1, column = 0)
